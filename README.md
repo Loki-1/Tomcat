@@ -14,9 +14,9 @@ unzip apache-tomcat-9.0.76.zip
 cd /opt/apache-tomcat-9.0.76/bin
 chmod u+x *.sh
 
-ln -s /opt/apache-tomcat-9.0.76/bin/startup.sh /usr/bin/startTomcat
+ln -s /opt/apache-tomcat-9.0.76/bin/startup.sh /usr/bin/starttomcat
 
-ln -s /opt/apache-tomcat-9.0.76/bin/shutdown.sh /usr/bin/stopTomcat
+ln -s /opt/apache-tomcat-9.0.76/bin/shutdown.sh /usr/bin/stoptomcat
 
 #ps -fax | grep tomcat
 #netstat -tunlap
@@ -26,8 +26,8 @@ ln -s /opt/apache-tomcat-9.0.76/bin/shutdown.sh /usr/bin/stopTomcat
 #<!-- <Valve className="org.apache.catalina.valves.RemoteAddrValve"
 #allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1" /> -->
 
-startTomcat
-#stopTomcat
+starttomcat
+#stoptomcat
  
 **#Create a user**
 #vi /opt/apache-tomcat-9.0.44/conf/tomcat-users.xml
