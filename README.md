@@ -17,6 +17,7 @@ cd /opt/apache-tomcat-9.0.76/bin
 
 chmod u+x *.sh
 
+
 ln -s /opt/apache-tomcat-9.0.76/bin/startup.sh /usr/bin/starttomcat
 
 ln -s /opt/apache-tomcat-9.0.76/bin/shutdown.sh /usr/bin/stoptomcat
