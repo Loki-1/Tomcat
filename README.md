@@ -12,7 +12,9 @@ wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.76/bin/apache-tomcat-9.0.76.z
 
 unzip apache-tomcat-9.0.76.zip
 
+
 cd /opt/apache-tomcat-9.0.76/bin
+
 chmod u+x *.sh
 
 ln -s /opt/apache-tomcat-9.0.76/bin/startup.sh /usr/bin/starttomcat
