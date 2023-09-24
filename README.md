@@ -49,7 +49,7 @@ b)check java is installed or not using java -version command.
 
 Unable to access Tomcat server URL in browser?
 
-a)make sure port 8080 is opened in security groups - AWS ec2 instance.
+a)make sure port 8080 is opened in security groups - AWS ec2 instance..
 
 
 
